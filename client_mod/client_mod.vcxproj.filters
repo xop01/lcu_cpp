@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="resources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="headers">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="headers\curl">
+      <UniqueIdentifier>{c6e21c27-ea6f-4761-97d6-75d0119e6c7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="headers\curl\lib">
+      <UniqueIdentifier>{e0d082cf-0bb0-49af-befb-65d8115325cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="client_mod.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="json.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="json.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ntdll.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="lcu.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="riot.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="base64.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="curl\curl_utils.h">
+      <Filter>headers\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="curl\curl.h">
+      <Filter>headers\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="curl\curlver.h">
+      <Filter>headers\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="curl\easy.h">
+      <Filter>headers\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="curl\mprintf.h">
+      <Filter>headers\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="curl\multi.h">
+      <Filter>headers\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="curl\stdcheaders.h">
+      <Filter>headers\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="curl\system.h">
+      <Filter>headers\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="curl\typecheck-gcc.h">
+      <Filter>headers\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="curl\urlapi.h">
+      <Filter>headers\curl</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="curl\lib\libcurl.lib">
+      <Filter>headers\curl\lib</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
